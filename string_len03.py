@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    s=a 
+    return s[b]
+print(main('code',-1))

@@ -6,4 +6,6 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    s=a
+    return s[1]
+print(main('python'))

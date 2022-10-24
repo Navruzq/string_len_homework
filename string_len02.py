@@ -9,8 +9,8 @@ def main(a):
     s=len(a)
     if s%2==0:
         return True
-    if s%2==0:
+    else:
         return False
-print(main('code'))
+print(main('codee'))
 
     

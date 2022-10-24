@@ -6,6 +6,7 @@ def main(s):
     Returns:
         string
     """
-    a=s
-    return a[0:3]
-print(main('number'))
+    a=len(s)
+    d=a*"*"
+    return d
+print(main('code'))

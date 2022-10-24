@@ -7,6 +7,11 @@ def main(a,b):
     Returns:
         True or False
     """
-    s=a 
-    return s[b]
-print(main('code',-1))
+    s=len(a)
+    d=len(b)
+    if s==d:
+        return True
+    else:
+        return False
+print(main('code','exam'))
+   

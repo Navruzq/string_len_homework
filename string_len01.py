@@ -6,6 +6,6 @@ def main(a):
     Returns:
         length of string
     """
-    s=a
-    return s[0]
-print(main('code'))
+
+    return len(a)
+print(main('python'))

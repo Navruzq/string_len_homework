@@ -6,6 +6,11 @@ def main(a):
     Returns:
         True or False
     """
-    s=a
-    return s[1]
-print(main('python'))
+    s=len(a)
+    if s%2==0:
+        return True
+    if s%2==0:
+        return False
+print(main('code'))
+
+    

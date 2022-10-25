@@ -8,4 +8,10 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a=len(s)
+    x=a//2
+    if a/2==a//2:
+        return s[x-1:x+1]
+    else:
+        return s[x:x+1]
+print(main('cdool'))

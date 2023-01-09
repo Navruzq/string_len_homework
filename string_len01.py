@@ -7,5 +7,5 @@ def main(a):
         length of string
     """
 
-    return len(a)
+    return len(a) 
 print(main('python'))
